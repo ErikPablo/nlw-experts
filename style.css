@@ -94,7 +94,7 @@ overflow: hidden;
 input {
   all: unset;
   border: 1px solid #94a3b8;
-  width: 16;
+  width: 16px;
   height: 16px;
   
   border-radius: 50%;
@@ -103,6 +103,11 @@ input {
   justify-content: center;
   flex-shrink: 0;
 }
+
+
+span:hover {
+  font-size: 150%;
+} 
 
 input:checked {
   border: 1px solid #A3E635;
